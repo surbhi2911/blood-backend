@@ -11,10 +11,5 @@
             "src": "/(.*)",
             "dest": "app.js"
         }
-    ],
-    "functions": {
-        "GetApi.js/GetApi.js": {
-            "maxDuration": 40
-        }
-    }
+    ]
 }
