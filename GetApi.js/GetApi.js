@@ -18,6 +18,8 @@ const Index = express.Router()
 Index.get('/', async (req, res, next) => {
     const data = await Getdata()
     res.send(data);
+    console.log(data);
+    
 
 });
 export default Index
